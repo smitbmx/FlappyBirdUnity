@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3988923702038407295}
   - component: {fileID: 3988923702038407282}
   - component: {fileID: 3988923702038407283}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Flappy Bird Red
   m_TagString: Player
   m_Icon: {fileID: 0}
