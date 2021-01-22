@@ -6,11 +6,19 @@ public class BirdScript : MonoBehaviour
 {
     public static BirdScript instance;
 
+    [SerializeField]
     private Rigidbody2D myRigidBody;
-    private Animation anim;
+
+    [SerializeField]
+    private Animator anim;
 
     private float forwardSpeed;
     private float bounceSpeed;
+
+    private void Awake()
+    {
+
+    }
 
     // Start is called before the first frame update
     void Start()
