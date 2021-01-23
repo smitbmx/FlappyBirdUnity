@@ -793,18 +793,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1032267286 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1032267286, guid: f41e1a2441141417cb4e47da97b1db54,
-    type: 3}
-  m_PrefabInstance: {fileID: 421688611}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555547d0f8c804c3b8bdea700d39b317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1061618404
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,18 +961,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cd1ad18b95394b4c9d64cb15f9450ce, type: 3}
---- !u!114 &1157876328 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1157876328, guid: 4cd1ad18b95394b4c9d64cb15f9450ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 1157876326}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555547d0f8c804c3b8bdea700d39b317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1163365937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,40 +1568,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1513917189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1157876328}
-        m_MethodName: FlapTheBird
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1871166732}
-        m_MethodName: FlapTheBird
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1032267286}
-        m_MethodName: FlapTheBird
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1513917189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,18 +1885,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ddd039eabdb74742bfdc244c0e76402, type: 3}
---- !u!114 &1871166732 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1871166732, guid: 7ddd039eabdb74742bfdc244c0e76402,
-    type: 3}
-  m_PrefabInstance: {fileID: 1871166730}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555547d0f8c804c3b8bdea700d39b317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1936834659
 GameObject:
   m_ObjectHideFlags: 0
