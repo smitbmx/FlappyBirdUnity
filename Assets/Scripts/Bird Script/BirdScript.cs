@@ -61,6 +61,17 @@ public class BirdScript : MonoBehaviour
                 myRigidBody.velocity = new Vector2(0, bounceSpeed);
                 anim.SetTrigger("Flap");
             }
+
+            if (myRigidBody.velocity.y >= 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else
+            {
+                float angle = 0;
+                angle = Mathf.Lerp(0, -90, -myRigidBody.velocity.y / 7);
+                transform.rotation = Quaternion.Euler(0, 0, angle);
+            }
         }
     }
 
