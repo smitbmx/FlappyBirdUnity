@@ -33,6 +33,8 @@ public class BirdScript : MonoBehaviour
 
         flapButton = GameObject.FindGameObjectWithTag("FlapButton").GetComponent<Button>();
         flapButton.onClick.AddListener(() => FlapTheBird());
+
+        SetCameraX();
     }
 
     // Start is called before the first frame update
@@ -51,7 +53,7 @@ public class BirdScript : MonoBehaviour
     {
         if (isAlive)
         {
-            Vector2 temp = transform.position;
+            Vector3 temp = transform.position;
             temp.x += forwardSpeed * Time.deltaTime;
             transform.position = temp;
 
@@ -66,7 +68,6 @@ public class BirdScript : MonoBehaviour
         }
     }
 
-
     private void ProcessBirdFaceDownOnFalling()
     {
         if (myRigidBody.velocity.y >= 0)
@@ -79,6 +80,16 @@ public class BirdScript : MonoBehaviour
             angle = Mathf.Lerp(0, -90, -myRigidBody.velocity.y / 7);
             transform.rotation = Quaternion.Euler(0, 0, angle);
         }
+    }
+
+    void SetCameraX()
+    {
+        CameraScript.offsetX = (Camera.main.transform.position.x - transform.position.x) - 1f;
+    }
+
+    public float GetPositionX()
+    {
+        return transform.position.x;
     }
 
     public void FlapTheBird()
