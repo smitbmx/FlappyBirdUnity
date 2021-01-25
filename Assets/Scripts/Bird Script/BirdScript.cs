@@ -23,7 +23,7 @@ public class BirdScript : MonoBehaviour
     private Button flapButton;
 
     [SerializeField]
-    private AudioSource audio;
+    private AudioSource audioSource;
 
     [SerializeField]
     private AudioClip flapClick, pointClip, diedClip;
