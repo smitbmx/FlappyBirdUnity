@@ -22,6 +22,12 @@ public class BirdScript : MonoBehaviour
 
     private Button flapButton;
 
+    [SerializeField]
+    private AudioSource audio;
+
+    [SerializeField]
+    private AudioClip flapClick, pointClip, diedClip;
+
     private void Awake()
     {
         if (instance == null)

@@ -251,3 +251,7 @@ MonoBehaviour:
   myRigidBody: {fileID: 3988923702038407283}
   anim: {fileID: 3988923702038407295}
   isAlive: 0
+  audio: {fileID: 5581057077895319017}
+  flapClick: {fileID: 8300000, guid: 824ebe8ea06a547cca57d03e97c296c6, type: 3}
+  pointClip: {fileID: 8300000, guid: 3db8cf1db82e7452cbb462e6aa5551fe, type: 3}
+  diedClip: {fileID: 8300000, guid: 03c91bae9a91c47f2838b3e5676f70c8, type: 3}
