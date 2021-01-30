@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc7a64699a814854b1182da5d5b2891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

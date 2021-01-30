@@ -528,6 +528,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966588415}
   m_CullTransparentMesh: 0
+--- !u!114 &966710151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5202984128941352100, guid: 8a22778ee64ab429d87a711cf8ee4c15,
+    type: 3}
+  m_PrefabInstance: {fileID: 5202984128514209571}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc7a64699a814854b1182da5d5b2891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1069233476
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +851,7 @@ GameObject:
   - component: {fileID: 1421967305}
   - component: {fileID: 1421967304}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Select Bird Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -903,7 +915,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1421967305}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 966710151}
+        m_MethodName: ChangeBird
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1421967305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,11 +1582,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5202984128941352100, guid: 8a22778ee64ab429d87a711cf8ee4c15,
         type: 3}
-      propertyPath: birds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5202984128941352100, guid: 8a22778ee64ab429d87a711cf8ee4c15,
-        type: 3}
       propertyPath: birds.Array.data[0]
       value: 
       objectReference: {fileID: 1644786614}
@@ -1580,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 5202984128941352101, guid: 8a22778ee64ab429d87a711cf8ee4c15,
         type: 3}
       propertyPath: m_Name
-      value: MenuController
+      value: Menu Controller
       objectReference: {fileID: 0}
     - target: {fileID: 5202984128941352107, guid: 8a22778ee64ab429d87a711cf8ee4c15,
         type: 3}
