@@ -433,7 +433,7 @@ Transform:
   - {fileID: 1941365160}
   - {fileID: 2048967846}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242036027
 GameObject:
@@ -1743,7 +1743,7 @@ Transform:
   - {fileID: 425447819}
   - {fileID: 1881553660}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &551621685
 GameObject:
@@ -2014,7 +2014,7 @@ Transform:
   - {fileID: 1170197223}
   - {fileID: 1723347430}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684268971
 GameObject:
@@ -2073,7 +2073,7 @@ Transform:
   - {fileID: 242036028}
   - {fileID: 453931505}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684581141
 GameObject:
@@ -2787,7 +2787,7 @@ Transform:
   - {fileID: 129555411}
   - {fileID: 568544155}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1061618404
 GameObject:
@@ -3026,7 +3026,7 @@ Transform:
   - {fileID: 1530074400}
   - {fileID: 485356784}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120810727
 GameObject:
@@ -4009,7 +4009,7 @@ Transform:
   - {fileID: 1291004721}
   - {fileID: 2135125368}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1291004720
 GameObject:
@@ -4691,7 +4691,7 @@ Transform:
   - {fileID: 1442655836}
   - {fileID: 1003090297}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513917186
 GameObject:
@@ -4943,7 +4943,7 @@ Transform:
   - {fileID: 354561797}
   - {fileID: 1120810728}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1626258683
 BoxCollider2D:
@@ -5613,7 +5613,7 @@ Transform:
   - {fileID: 328598677}
   - {fileID: 2005411166}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936834659
 GameObject:
@@ -6480,7 +6480,7 @@ Transform:
   - {fileID: 1897849833}
   - {fileID: 1277582206}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135125367
 GameObject:
@@ -6588,3 +6588,122 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &992479520790333911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.364149
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.293993
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.08616968
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749425, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: birds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: medals.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 860498911}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: endScore
+      value: 
+      objectReference: {fileID: 1001855654}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: bestScore
+      value: 
+      objectReference: {fileID: 1103447649}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: gameOverText
+      value: 
+      objectReference: {fileID: 500318208}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: restartGameButton
+      value: 
+      objectReference: {fileID: 1292638484}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: instructionsButton
+      value: 
+      objectReference: {fileID: 1251055969}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: pausePanel
+      value: 
+      objectReference: {fileID: 82196000}
+    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: medalImage
+      value: 
+      objectReference: {fileID: 518057742}
+    - target: {fileID: 992479521346749427, guid: 545f8318fa30b46cda0301c4abb2f561,
+        type: 3}
+      propertyPath: m_Name
+      value: Gameplay Controller
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 545f8318fa30b46cda0301c4abb2f561, type: 3}
