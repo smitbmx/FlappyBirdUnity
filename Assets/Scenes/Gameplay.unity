@@ -6950,12 +6950,12 @@ PrefabInstance:
         type: 3}
       propertyPath: endScore
       value: 
-      objectReference: {fileID: 1001855654}
+      objectReference: {fileID: 411704630}
     - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
       propertyPath: bestScore
       value: 
-      objectReference: {fileID: 1103447649}
+      objectReference: {fileID: 55584456}
     - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
       propertyPath: gameOverText
