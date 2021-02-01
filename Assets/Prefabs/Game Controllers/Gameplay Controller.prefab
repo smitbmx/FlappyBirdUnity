@@ -50,6 +50,12 @@ MonoBehaviour:
   restartGameButton: {fileID: 0}
   instructionsButton: {fileID: 0}
   pausePanel: {fileID: 0}
-  birds: []
-  medals: []
+  birds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  medals:
+  - {fileID: 21300048, guid: 1316173134cf14a7a8f3994021fdba85, type: 3}
+  - {fileID: 21300044, guid: 1316173134cf14a7a8f3994021fdba85, type: 3}
+  - {fileID: 21300046, guid: 1316173134cf14a7a8f3994021fdba85, type: 3}
   medalImage: {fileID: 0}

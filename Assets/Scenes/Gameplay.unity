@@ -112,6 +112,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &51184203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
+    type: 3}
+  m_PrefabInstance: {fileID: 992479520790333911}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a394e62abccba4366ad43dc34138b4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &55584454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,8 +1381,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-          type: 3}
+      - m_Target: {fileID: 51184203}
         m_MethodName: PauseGame
         m_Mode: 1
         m_Arguments:
@@ -3633,8 +3644,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-          type: 3}
+      - m_Target: {fileID: 51184203}
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -6721,16 +6731,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
-      propertyPath: birds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-        type: 3}
-      propertyPath: medals.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-        type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 860498911}
@@ -6766,11 +6766,6 @@ PrefabInstance:
       objectReference: {fileID: 82196000}
     - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
-      propertyPath: medalImage
-      value: 
-      objectReference: {fileID: 518057742}
-    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-        type: 3}
       propertyPath: birds.Array.data[0]
       value: 
       objectReference: {fileID: 421688612}
@@ -6786,22 +6781,9 @@ PrefabInstance:
       objectReference: {fileID: 1157876327}
     - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
-      propertyPath: medals.Array.data[0]
+      propertyPath: medalImage
       value: 
-      objectReference: {fileID: 21300048, guid: 1316173134cf14a7a8f3994021fdba85,
-        type: 3}
-    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-        type: 3}
-      propertyPath: medals.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300044, guid: 1316173134cf14a7a8f3994021fdba85,
-        type: 3}
-    - target: {fileID: 992479521346749426, guid: 545f8318fa30b46cda0301c4abb2f561,
-        type: 3}
-      propertyPath: medals.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300046, guid: 1316173134cf14a7a8f3994021fdba85,
-        type: 3}
+      objectReference: {fileID: 518057742}
     - target: {fileID: 992479521346749427, guid: 545f8318fa30b46cda0301c4abb2f561,
         type: 3}
       propertyPath: m_Name
