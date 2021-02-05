@@ -76,9 +76,9 @@ public class GameController : MonoBehaviour
         PlayerPrefs.SetInt(GREEN_BIRD, 1);
     }
 
-    public int IsGreenBirdUnlocked()
+    public bool IsGreenBirdUnlocked()
     {
-        return PlayerPrefs.GetInt(GREEN_BIRD);
+        return PlayerPrefs.GetInt(GREEN_BIRD) == 1;
     }
 
     public void UnlockRedBird()
@@ -86,8 +86,8 @@ public class GameController : MonoBehaviour
         PlayerPrefs.SetInt(RED_BIRD, 1);
     }
 
-    public int IsRedBirdUnlocked()
+    public bool IsRedBirdUnlocked()
     {
-        return PlayerPrefs.GetInt(RED_BIRD);
+        return PlayerPrefs.GetInt(RED_BIRD) == 1;
     }
 }

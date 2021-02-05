@@ -41,12 +41,12 @@ public class MenuController : MonoBehaviour
 
     void CheckIfBirdsAreUnlocked()
     {
-        if (GameController.instance.IsRedBirdUnlocked() == 1)
+        if (GameController.instance.IsRedBirdUnlocked())
         {
             isRedBirdUnlocked = true;
         }
 
-        if (GameController.instance.IsGreenBirdUnlocked() == 1)
+        if (GameController.instance.IsGreenBirdUnlocked())
         {
             isGreenBirdUnlocked = true;
         }
