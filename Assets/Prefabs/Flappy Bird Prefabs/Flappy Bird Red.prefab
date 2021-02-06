@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3988923702038407281
 Transform:
   m_ObjectHideFlags: 0
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3988923702038407294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.7123995, y: 1.83, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -252,6 +252,7 @@ MonoBehaviour:
   anim: {fileID: 3988923702038407295}
   isAlive: 0
   audioSource: {fileID: 5581057077895319017}
+  score: 0
   flapClick: {fileID: 8300000, guid: 824ebe8ea06a547cca57d03e97c296c6, type: 3}
   pointClip: {fileID: 8300000, guid: 3db8cf1db82e7452cbb462e6aa5551fe, type: 3}
   diedClip: {fileID: 8300000, guid: 03c91bae9a91c47f2838b3e5676f70c8, type: 3}
