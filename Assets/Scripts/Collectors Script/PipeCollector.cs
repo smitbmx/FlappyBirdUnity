@@ -8,7 +8,7 @@ public class PipeCollector : MonoBehaviour
     private float pipeDistance = 2.5f;
     private float lastPipesX;
     private float pipeMin = -1.15f;
-    private float pipeMax = 3;
+    private float pipeMax = 2.5f;
 
     // Start is called before the first frame update
     void Awake()
